@@ -1,0 +1,85 @@
+.inicio-container {
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Establece la altura al 100% del viewport */
+  }
+  
+  .carousel-container {
+    width: 40%; /* Establece el ancho del carrusel al 50% del contenedor padre */
+  }
+  /*opcion de categorias debajo del carrousel*/
+  .categorias-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .categoria {
+    text-align: center;
+  }
+  
+  .categoria img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  .carousel-categorias-container {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+  }
+  /*css de bonificacion*/
+  .inicio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-categorias-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .categorias-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .bonificaciones-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bonificaciones-container h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .categoria,
+  .bonificacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .categoria img,
+  .bonificacion img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .categoria p,
+  .bonificacion p {
+    font-size: 14px;
+    text-align: center;
+  }
+  
